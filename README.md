@@ -89,7 +89,7 @@ You can install the required packages using pip:
 pip install tensorflow keras numpy pandas opencv-python matplotlib xgboost scikit-learn
 ```
 
-Running the Notebooks
+## Running the Notebooks
 1. Training a Model
 To train a model, simply open the corresponding Jupyter notebook and run the cells. Each notebook contains the necessary code to load the dataset, preprocess the images, train the model, and evaluate its performance.
 
@@ -97,7 +97,7 @@ To train a model, simply open the corresponding Jupyter notebook and run the cel
 Once a model is trained, you can use it to predict diabetic retinopathy in new retinal images:
 
 
-Results
+## Results
 - CNN Model: Accuracy: 85%
 - DenseNet + XGBoost: Accuracy: 92%
 - EfficientNet: Accuracy: 91%
